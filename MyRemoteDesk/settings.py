@@ -97,14 +97,25 @@ WSGI_APPLICATION = 'MyRemoteDesk.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',     # Using MySQL backend
+#         'NAME': 'employee_tracker',               # Database name
+#         'USER': 'trackeruser',                     # MySQL username
+#         'PASSWORD': 'strongpass123',               # MySQL password
+#         'HOST': 'localhost',                       # Database host, local machine here
+#         'PORT': '3306',                            # Default MySQL port
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',     # Using MySQL backend
-        'NAME': 'employee_tracker',               # Database name
-        'USER': 'trackeruser',                     # MySQL username
-        'PASSWORD': 'strongpass123',               # MySQL password
-        'HOST': 'localhost',                       # Database host, local machine here
-        'PORT': '3306',                            # Default MySQL port
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'employee_tracking',
+        'USER': 'rahul',
+        'PASSWORD': 'Rahul@2025!',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
